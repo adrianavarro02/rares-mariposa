@@ -1,0 +1,1 @@
+Prueba temporal de permisos de escritura desde ChatGPT. Si se creó, confirma que la integración puede escribir en el repositorio.
