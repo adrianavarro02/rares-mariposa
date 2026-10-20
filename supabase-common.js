@@ -1,0 +1,2 @@
+window.raresSupabaseReady = () => typeof window.supabase !== 'undefined' && window.RARES_SUPABASE_URL && !window.RARES_SUPABASE_URL.includes('PEGA_AQUI') && window.RARES_SUPABASE_ANON_KEY && !window.RARES_SUPABASE_ANON_KEY.includes('PEGA_AQUI');
+window.raresFormatPrice = price => price === null || price === undefined || price === '' ? 'Consultar' : new Intl.NumberFormat('es-ES',{maximumFractionDigits:0}).format(Number(price))+' CUP';
