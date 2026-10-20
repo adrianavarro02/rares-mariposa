@@ -1,0 +1,1 @@
+// Completa con Project URL y publishable/anon key desde Supabase > Project Settings > API.\n// NUNCA uses la service_role o una secret key en el navegador.\nwindow.RARES_SUPABASE_URL = "PEGA_AQUI_LA_PROJECT_URL";\nwindow.RARES_SUPABASE_ANON_KEY = "PEGA_AQUI_LA_PUBLISHABLE_O_ANON_KEY";\n
