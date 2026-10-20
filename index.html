@@ -70,7 +70,7 @@ footer{padding:25px 0;border-top:1px solid var(--line);color:#929b8d;font-size:1
 <div class="visit-panel"><h3>Rares Mariposa</h3><p>Bar · Cocina · Buen ambiente</p><p>Estamos en 23 y C. ¡Te esperamos!</p><p><strong>Dirección:</strong> 23 y C<br><strong>Horario:</strong> 10:00 a. m. – 10:00 p. m.<br><strong>Contacto:</strong> <a href="tel:+5355836930" style="display:inline;color:var(--lime);margin:0">55836930</a> · <a href="https://wa.me/5355836930" target="_blank" rel="noopener" style="display:inline;color:var(--lime);margin:0">WhatsApp</a></p><a href="#menu">Volver al menú ↑</a></div>
 </div></section>
 </main>
-<footer><div class="wrap footer-row"><span>© <span id="year"></span> Rares Mariposa. Todos los derechos reservados.</span><span>Hecho para disfrutar los buenos momentos ✳</span></div></footer>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> Rares Mariposa. Todos los derechos reservados.</span><span>Hecho para disfrutar los buenos momentos ✳</span><span><a href="./admin.html" style="color:var(--lime)">Administrador</a></span></div></footer>
 <script>
 const buttons=document.querySelectorAll('.filter');
 const items=document.querySelectorAll('.item');
@@ -90,5 +90,9 @@ document.querySelectorAll('img').forEach(img => {
   }, { once: true });
 });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="./supabase-config.js"></script>
+<script src="./supabase-common.js"></script>
+<script src="./public-menu.js"></script>
 </body>
 </html>
